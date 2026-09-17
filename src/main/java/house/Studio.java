@@ -8,4 +8,9 @@ public class Studio extends Apartment {
     public void setSquareFootage(int sqft) {
         this.squareFootage = sqft;
     }
+
+    @Override
+    // 스튜디오의 침실 개수는 늘어나지 않습니다.
+    void setNumberOfBedrooms(int numBr) {}
+
 }

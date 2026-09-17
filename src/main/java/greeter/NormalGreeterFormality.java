@@ -1,6 +1,6 @@
 package greeter;
 
-public class NormalFormality implements Formality {
+public class NormalGreeterFormality implements GreeterFormality {
 
     @Override
     public String greet() {

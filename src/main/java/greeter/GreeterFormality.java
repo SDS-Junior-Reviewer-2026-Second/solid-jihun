@@ -1,5 +1,5 @@
 package greeter;
 
-public interface Formality {
+public interface GreeterFormality {
     public String greet();
 }

@@ -1,14 +1,14 @@
 package greeter;
 
 public class Greeter {
-    Formality formality = new NormalFormality();
+    GreeterFormality greeterFormality = new NormalGreeterFormality();
 
 
     public String greet() {
-        return formality.greet();
+        return greeterFormality.greet();
     }
 
     public void setFormality(String formality) {
-        this.formality = FormalityFactory.create(formality);
+        this.greeterFormality = GreeterFormalityFactory.create(formality);
     }
 }

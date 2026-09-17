@@ -1,6 +1,6 @@
 package greeter;
 
-public class CasualFormality implements Formality {
+public class CasualGreeterFormality implements GreeterFormality {
     @Override
     public String greet() {
         return "Sup bro?";
